@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<group
+    android:checkableBehavior="single">
+
+    <item
+        android:title="@string/sucona"
+        android:id="@+id/suchona"
+        ></item>
+    <item
+        android:title="@string/obosthan"
+        android:id="@+id/obo"
+        ></item>
+    <item
+        android:title="@string/itihas"
+        android:id="@+id/itihas"
+        ></item>
+    <item
+        android:title="@string/technology_somuho"
+        android:id="@+id/tech"
+        ></item>
+    <item
+        android:title="@string/campuse"
+        android:id="@+id/camp"
+        ></item>
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"
+        ></item>
+
+</group>
+
+</menu>

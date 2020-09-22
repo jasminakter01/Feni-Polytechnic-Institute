@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+
+            android:layout_marginTop="5dp"
+android:background="@drawable/edittextstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            />
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_num_titel"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Title"
+                />
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_num_name"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Name"
+                />     <TextView
+            android:drawableLeft="@drawable/call"
+            android:paddingLeft="10dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/con_num_number"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Mobile Number  "
+            />
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#5106F3">
+
+            </View>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>

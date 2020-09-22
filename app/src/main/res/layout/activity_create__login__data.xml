@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Create_Login_Data">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newemailid"
+            android:textSize="18dp"
+            android:hint="Enter New Email Id"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/oldemailid"
+            android:textSize="18dp"
+            android:hint="Enter New Email Id"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newpassid"
+            android:textSize="18dp"
+            android:hint="Enter New Email Id"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/oldpassid"
+            android:textSize="18dp"
+            android:hint="Enter New Email Id"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FDFAFA"
+            android:textSize="30dp"
+            android:onClick="chancgepassemail"
+            android:textStyle="bold"
+            android:text="Change email Or Pass"
+            android:background="#065FF8"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

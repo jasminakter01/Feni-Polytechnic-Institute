@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageImageTest"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:padding="10dp">
+    <Button
+        android:background="#082DFC"
+        android:textColor="#F5F2F2"
+        android:layout_weight="0.25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Choose Image"
+        android:textAllCaps="false"
+        android:id="@+id/cchooseimageid2"/>
+    <EditText
+        android:layout_weight="0.25"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a  Name for Image "
+        android:id="@+id/iimagenameid2"
+        />
+    <EditText
+        android:layout_weight="0.25"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter w  Name for Image "
+        android:id="@+id/iimagenameid3"/>
+    <ImageView
+
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        android:id="@+id/iimageid2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <ProgressBar
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/pprogressbarid2"/>
+    <Button
+        android:background="#082DFC"
+        android:textColor="#F5F2F2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sSave Image"
+        android:id="@+id/ssaveimageid2"
+
+        android:layout_weight="0.17"/>
+
+    <Button
+        android:background="#082DFC"
+        android:textColor="#F5F2F2"
+        android:id="@+id/ddisplayimageid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:layout_marginTop="10dp"
+        android:text="Display Image" />
+
+</LinearLayout>

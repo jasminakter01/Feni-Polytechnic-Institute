@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_marginTop="1dp"
+    android:orientation="vertical"
+    tools:context=".Teacher_Add_Layout"
+    android:background="@drawable/background_test">
+    <ImageView
+        android:onClick="pictureclik"
+        android:id="@+id/picturid"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/ic_image_black_24dp" />
+
+    <ScrollView
+android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+             <EditText
+                android:hint="Enter Name"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameid"
+
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />  <TextView
+            android:textColorHint="#DDFFFFFF"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Department"
+            android:textSize="20dp"
+            android:textColor="#DDFFFFFF"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/departmentid">
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comid"
+                    android:text="Computer"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"/>
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/civilid"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"
+                    android:text="Civil"/>
+
+
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/electroid"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"
+                    android:text="Electrical"/>
+
+                <RadioButton
+
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mecaid"
+                    android:text="Mecanical"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"/>
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/powerid"
+                    android:text="Power"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"/>
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AIDT"
+                    android:id="@+id/aidtid"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"
+                    />
+
+
+
+            </RadioGroup>
+
+
+
+
+
+
+            <EditText
+                android:hint="Enter Designation"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/designationid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:textColorHint="#DDFFFFFF"
+                android:id="@+id/date_of_birthid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date of_birth"
+                android:textColor="#DDFFFFFF"
+                android:textStyle="bold"
+                android:onClick="dateofbirthclik"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#160101"></View>
+            <TextView
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Gender"
+                android:textSize="20dp"
+                android:textColor="#DDFFFFFF"/>
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/genderid">
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maleid"
+                    android:text="Male"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"/>
+                <RadioButton   android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/femaleid"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"
+                    android:text="Femaile"/>
+
+
+
+            </RadioGroup>
+
+
+            <EditText
+                android:hint="Enter Religius"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/religiusid"
+
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Relationship Status"
+                android:textSize="20dp"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:textColor="#DDFFFFFF"/>
+            <RadioGroup
+                android:orientation="horizontal"
+                android:id="@+id/maritialstatusid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/marridid"
+                    android:text="Married"
+                    android:textColor="#DDFFFFFF"
+                    android:textSize="20dp"
+                    />
+                <RadioButton
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/unmarridid"
+                android:text="UnMarried"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+            </RadioGroup>
+            <EditText
+                android:hint="Enter Father's Name"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/father_Nameid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:hint="Enter Mother's Name"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mother_nameid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:inputType="number"
+                android:hint="Enter Mobile No"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mobile_noid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:hint="Enter Email"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+
+            <EditText
+                android:hint="Enter Present Address"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/present_addressid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+
+            <EditText
+                android:hint="Enter Permanent Name"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/permanent_addressid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:onClick="joiningdateclik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/joining_dateid"
+                android:textColor="#DDFFFFFF"
+                android:hint="Select Joining Date"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:inputType="date"
+                android:textSize="20dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#160101"></View>
+            <EditText
+                android:hint="Enter Educational_Qualification"
+                android:textColorHint="#DDFFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/educational_qualificationid"
+                android:textColor="#DDFFFFFF"
+                android:textSize="20dp"
+                />
+
+
+            <Button
+                android:id="@+id/addclickid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_dis"
+                android:onClick="addclick"
+                android:text="Add"
+                android:textColor="#FAFAFA" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

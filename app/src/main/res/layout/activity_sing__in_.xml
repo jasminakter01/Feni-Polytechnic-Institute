@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sing_In_Activity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#55B53F">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt3"
+        android:hint="Enter email"
+        android:textSize="30dp"
+        android:background="#F5F5F4"
+
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt4"
+        android:hint="Enter email"
+        android:textSize="30dp"
+        android:background="#F5F5F4"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sing Up"
+        android:textSize="30dp"
+        android:id="@+id/bs"
+        android:textAllCaps="false"
+        android:onClick="login2"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you already ragiosterd ? sing In "
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="#FAFAF7"
+
+        android:onClick="textviewclick2"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

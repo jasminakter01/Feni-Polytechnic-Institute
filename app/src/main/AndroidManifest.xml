@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebaseproject1">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logufpi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logufpi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Loading_Page"></activity>
+        <activity android:name=".Create_Login_Data" />
+        <activity android:name=".Notice_Show" />
+        <activity android:name=".Notice_Activity" />
+        <activity android:name=".Loging_Page" />
+        <activity android:name=".FeadBack_Page" />
+        <activity android:name=".Technology_Add" />
+        <activity android:name=".Web_Site" />
+        <activity android:name=".Contact_Number_Show" />
+        <activity android:name=".Contact_Number_Edit" />
+        <activity android:name=".Contact_Numbeer" />
+        <activity android:name=".Admin_Home_Layout" />
+        <activity android:name=".Profile_Activity" />
+        <activity android:name=".HomePage2" />
+        <activity android:name=".Addmission_Layout" />
+        <activity android:name=".Student_Show_All_Detailse" />
+        <activity android:name=".Students_Show" />
+        <activity android:name=".Departmen_Name" />
+        <activity android:name=".Student_Show_first_Lauout" />
+        <activity android:name=".Obosthan_Layout" />
+        <activity android:name=".Itihas_Layout" />
+        <activity android:name=".Campus_Layout" />
+        <activity android:name=".Technology_Layout" />
+        <activity android:name=".Student_Add" />
+        <activity android:name=".StorageImageTest" />
+        <activity android:name=".Teacher_Add_Layout" />
+        <activity android:name=".Show_Image" />
+        <activity android:name=".Techer_alldetail_Show_Activity" />
+        <activity android:name=".DataBase_Test" />
+        <activity android:name=".StorageImageTest2" />
+        <activity android:name=".Data_Load_Layout" />
+        <activity android:name=".Show_Image2" />
+        <activity android:name=".Techer_Image_Show_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity_Profile" />
+        <activity android:name=".Sing_In_Activity" />
+        <activity android:name=".Shuchona_Page" />
+        <activity android:name=".Student_Add_first_Lauout" />
+        <activity android:name=".Home_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

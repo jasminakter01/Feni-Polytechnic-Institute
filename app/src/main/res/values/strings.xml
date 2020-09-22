@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Feni Polytechnic Institute</string>
+
+    <string name="naviopen">Open</string>
+    <string name="naviclose">Close</string>
+    <string name="ff1">ফেনী পলিটেকনিক ইনস্টিটিউট </string>
+    <string name="ff">ফেনী পলিটেকনিক ইনস্টিটিউট :</string>
+    <string name="profile">In 29th February 1964, Feni Polytechnic started its journey as Feni Technical with Civil and Mechanical Engineering departments in a 15.97 Acre campus near old Dhaka-Chittagong Highway road, just 500 meters east to Feni Sadar Hospital. In 1972 with the addition of Power department, the institution finally became Feni Polytechnic Institute. Later additional departments as Electrical engineering (1978), Computer engineering (2002), Architecture And Interior design technology (2006) was added to give the institution its present form.
+
+\n\nFrom its very first day, Feni polytechnic has been under supervision of excellent administration lead by many highlighted individuals from Technical Education field. Currently the institution is run by 60 teachers lead by the Principal, 50 third grade and 26 fourth grade government staffs. Today, Feni Polytechnic Institute operates an additional second shift to its usual operation for its 6 departments and the institution is hence filled with students all through the operating period and comes to life from morning till evening.
+
+\n\nToday Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.
+
+\n\nFeni Polytechnic Institute is highly regulated and monitored by the Directorate of Technical Education(DTE) under Ministry of Education(MoE) for the Governments of the people\'s republic of Bangladesh. The academic section is supervised by the Bangladesh Technical Education Board (BTEB).</string>
+    <string name="fpiintro"> \nবাংলাদেশের সরকারী পলিটেকনিক সমূহের মধ্যে অন্যতম একটি ফেনী পলিটেকনিক ইনস্টিটিউট । এই প্রতিষ্ঠানটি বাংলাদেশ কারিগরি শিক্ষা বোর্ড এর অধীনে ৪ বছর মেয়াদী ডিপ্লোমা-ইন-ইঞ্জিনিয়ারিং কোর্স পরিচালনা করে থাকে। গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এর শিক্ষা মন্ত্রণালয় এর আওতাধীন বাংলাদেশ কারিগরি শিক্ষা অধিদপ্তর এর অধীনে প্রশাসনিক ও ভর্তি কার্যক্রম এবং সিলেবাস প্রণয়ন, পরীহ্মা গ্রহণ ও সনদ প্রদান কার্যক্রম বাংলাদেশ কারিগরি শিক্ষা বোর্ড কর্তৃক পরিচালিত হচ্ছে।</string>
+    <string name="ff3">\n\n19২9 সালের ২9 ফেব্রুয়ারি, ফেনী পলিটেকনিক ফেনী সদর হাসপাতাল থেকে 500 মিটার পূর্বে পুরানো ঢাকা-চট্টগ্রাম মহাসড়কের রাস্তাটির কাছে 15.97 একর ক্যাম্পাসে সিভিল ও মেকানিক্যাল ইঞ্জিনিয়ারিং বিভাগের সাথে ফেনী প্রযুক্তি হিসাবে যাত্রা শুরু করে। 197২ সালে বিদ্যুৎ বিভাগের যোগান দিয়ে প্রতিষ্ঠানটি অবশেষে ফেনী পলিটেকনিক ইন্সটিটিউট হয়ে ওঠে। পরবর্তীতে ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং (1978), কম্পিউটার ইঞ্জিনিয়ারিং (2002), স্থাপত্য ও অভ্যন্তরীণ নকশা প্রযুক্তি (2006) হিসাবে অতিরিক্ত বিভাগগুলি প্রতিষ্ঠানটিকে তার বর্তমান ফর্ম দেওয়ার জন্য যুক্ত করা হয়।
+
+        \n\nপ্রথম দিন থেকে, ফেনী পলিটেকনিক প্রযুক্তিগত দক্ষতা ক্ষেত্রের অনেক হাইলাইটকৃত ব্যক্তিদের দ্বারা চমৎকার প্রশাসনের নেতৃত্বের তত্ত্বাবধানে রয়েছেন। বর্তমানে প্রিন্সিপাল, 50 টি তৃতীয় গ্রেড এবং ২6 চতুর্থ গ্রেড সরকারি কর্মচারী দ্বারা পরিচালিত 60 টি শিক্ষক দ্বারা পরিচালিত হয়। আজ, ফেনী পলিটেকনিক ইনস্টিটিউট 6 টি বিভাগের জন্য তার স্বাভাবিক ক্রিয়াকলাপে একটি অতিরিক্ত দ্বিতীয় স্থানান্তর পরিচালনা করে এবং এজন্য প্রতিষ্ঠানটি অপারেটিং সময়ের মাধ্যমে সমস্ত শিক্ষার্থীকে ভর্তি করে এবং সকাল থেকে সন্ধ্যায় জীবন আসে।
+
+        \n\nআজ ফেনী পলিটেকনিকের একটি তল্লাশী ক্যাম্পাস রয়েছে যা দুই তলা প্রশাসনিক ভবন, 3 তলা 1 টি একাডেমিক ভবন  ,  ক্যাম্পাসের শিক্ষার্থীর 3 টি ভবন, অডিটোরিয়াম, মসজিদ এবং এর প্রিন্সিপাল এবং কর্মীদের থাকার জায়গা রয়েছে। পুকুর, মাঠ, ক্যান্টিন এবং ক্যাম্পাসের চারপাশে বিভিন্ন গাছ কেবল আমাদের চোখের জন্য একটি চিকিত্সা।
+
+        \n\nফেনী পলিটেকনিক ইনস্টিটিউট বাংলাদেশের গণপ্রজাতন্ত্রী সরকারের জন্য শিক্ষা মন্ত্রণালয়ের (টেকনিক্যাল শিক্ষা অধিদফতরের অধীনে) কারিগরী শিক্ষা অধিদফতরের (এনটিই) নিয়ন্ত্রিত এবং নিরীক্ষণ করা হয়। একাডেমিক বিভাগের তত্ত্বাবধানে বাংলাদেশ কারিগরী শিক্ষা বোর্ড (বিটিইবি)।
+    </string>
+
+    <string name="sucona"> সুচনা</string>
+    <string name="obosthan">অবস্থান</string>
+    <string name="obosthan2">অবস্থান :</string>
+    <string name="obosthandetailse">ফেনী শহর হতে উত্তর-পূর্ব দিকে (সদর হাসপাতাল হতে আধা কিলোমিটার পূর্ব দিকে) পুরাতন ঢাকা-চট্টগ্রাম মহাসড়ক এর উত্তর পার্শ্বে ফেনী পৌরসভাধীন ফলেশ্বর মৌজায় প্রতিষ্ঠানটি অবস্থিত। </string>
+    <string name="itihas">ইতিহাস </string>
+    <string name="itihas2">ইতিহাস :</string>
+    <string name="itihasdetailse"> কারিগরি শিক্ষার সম্প্রসারণ ও মানোন্নয়নের মাধ্যমে দক্ষ মানব সম্পদ সৃস্টির লক্ষে ১৯৬৪ সালের ২৯ শে ফেব্রুয়ারী সিভিল ও মেকানিক্যাল টেকনোলজি দিয়ে ফেনী টেকনিক্যাল ইনস্টিটিউট যাত্রা শুরু করে। এরপর ১৯৭২ সালে পাওয়ার টেকনোলজি চালুর মাধ্যমে ফেনী টেকনিক্যাল ইনস্টিটিউট, ফেনী পলিটেকনিক ইনস্টিটিউট-এ রূপান্তরিত হয়। ১৯৭৮ সালে ইলেকট্রিক্যাল, ২০০২ সালে কম্পিউটার এবং ২০০৬ সালে এআইডিটি টেকনোলজি চালুর মাধ্যমে ফেনী পলিটেকনিক ইনস্টিটিউট বর্তমান রূপ ধারণ করে।</string>
+    <string name="technology_somuho">টেকনোলজি সমূহ</string>
+    <string name="technology_somuho2">টেকনোলজি সমূহ :\n</string>
+
+
+    <string name="com">কম্পিউটার</string>
+    <string name="elec">ইলেকট্রিক্যাল</string>
+    <string name="aidt">এ.আই.ডি.টি</string>
+    <string name="power">পাওয়ার</string>
+    <string name="civil">সিভিল</string>
+    <string name="meca">মেকানিক্যাল</string>
+
+    <string name="campuse">ক্যাম্পাস</string>
+    <string name="campuse2">ক্যাম্পাস :</string>
+    <string name="camdetailse">একটি দোতলা প্রশাসনিক ভবন, একটি তিন তলা একাডেমিক ভবন, প্রায় ২০ টি ওয়ার্কশপ, তিনটি আবাসিক হল, একটি ৬০০ আসন বিশিষ্ট অডিটোরিয়াম, একটি পুকুর, একটি মসজিদ, একাধিক খেলার মাঠ, অধ্যক্ষের বাংলো, শিক্ষক ও কর্মচারীদের একাধিক আবাসিক ভবন সহ অসংখ্য ফলজ, বনজ ও ভেষজ গাছ-গাছালীতে পরিপূর্ণ নয়নাভিরাম দৃশ্যের সৌন্দর্যমন্ডিত একটি ক্যাম্পাস। বর্তমানে সুশৃঙ্খলভাবে দুইটি রোভার ও একটি গার্লস-ইন-রোভার স্কাউট ইউনিট এর কার্যক্রম চলছে। </string>
+
+    <string name="shikkhokder_tottho">শিক্ষকের তথ্য</string>
+
+
+    <string name="name2">Name</string>
+    <string name="Department">Select Department</string>
+    <string name="Designation">Enter Designation</string>
+    <string name="Date_Of_Birth">Date Of Birth</string>
+    <string name="Gender">Gender</string>
+    <string name="Religius">Religius</string>
+    <string name="Relationship_Status">Select Relationship Status</string>
+    <string name="Father_Name">Father Name</string>
+    <string name="Mother_Name">Mother Name</string>
+    <string name="Mobile_No">Mobile No.</string>
+    <string name="Email">Email</string>
+    <string name="Present_Address">Present Address</string>
+    <string name="Permanent_Address">Permanent Address</string>
+    <string name="Joining_Date">Joining Date</string>
+    <string name="Educational_Qualification">Educational Qualification</string>
+
+    <string-array name="sesion">
+        <item>Select Session</item>
+        <item>2010-2011</item>
+        <item>2011-2012</item>
+        <item>2012-2013</item>
+        <item>2013-2014</item>
+        <item>2014-2015</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+        <item>2017-2018</item>
+        <item>2018-2019</item>
+        <item>2019-2020</item>
+        <item>2020-2021</item>
+        <item>2021-2022</item>
+        <item>2022-2023</item>
+        <item>2023-2024</item>
+
+    </string-array>
+    <string-array name="titel">
+        <item>Select Titel</item>
+        <item>Princple</item>
+        <item>Vice Princple</item>
+        <item>Department Of Computer Head</item>
+        <item>Department Of Electrical Head</item>
+        <item>Department Of Mechanical Head</item>
+        <item>Department Of Civil Head</item>
+        <item>Department Of Power Head</item>
+        <item>Department Of AIDT Head</item>
+        <item>Department Of Civil Head</item>
+        <item>Department Of Power Head</item>
+        <item>Department Of AIDT Head</item>
+    </string-array>
+    <string-array name="departmentname">
+        <item>Select Department</item>
+        <item>Coputer</item>
+        <item>Electrical</item>
+        <item>Mecanical</item>
+        <item>Power</item>
+        <item>Civil</item>
+        <item>AIDT</item>
+
+
+    </string-array>
+    <string-array name="bloodname">
+        <item>Select Blood</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+
+    </string-array>
+    <string name="title_activity_notice__add">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+</resources>

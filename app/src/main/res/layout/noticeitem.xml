@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+
+            android:layout_marginTop="5dp"
+android:background="@drawable/edittextstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            />
+
+            <TextView
+                android:id="@+id/notic_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Notice"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#5106F3">
+
+            </View>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>

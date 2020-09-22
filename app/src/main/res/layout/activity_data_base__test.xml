@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataBase_Test"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Enter Your Name "
+        android:id="@+id/nameid"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Enter Your Age "
+        android:id="@+id/ageid"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/savedataid"
+        style="@style/Base.Theme.AppCompat.Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0588C5"
+        android:text="Save Data"
+        android:textColor="#FAF7F7"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/loaddataid"
+        style="@style/Base.Theme.AppCompat.Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0588C5"
+        android:text="Load Data"
+        android:textColor="#FAF7F7"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+</LinearLayout>
